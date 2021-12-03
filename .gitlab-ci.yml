@@ -1,0 +1,19 @@
+stages: # List of stages for jobs, and their order of executio
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - mvn -B -DskipTests clean package
+
+test:
+  stage: test
+  script:
+    - mvn test
+
+deploy:
+  stage: deploy
+  script:
+    - mvn -B -DskipTests -s settings.xml clean deploy

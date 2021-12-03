@@ -41,7 +41,7 @@
     </plugins>
   </build>
 
-  <repositories>
+  <!-- <repositories>
     <repository>
       <id>maven-group</id>
       <url>https://apache-acit4850-group-one.eastus2.cloudapp.azure.com/nexus/repository/maven-group/</url>
@@ -56,6 +56,6 @@
       <id>nexus-releases</id>
       <url>https://apache-acit4850-group-one.eastus2.cloudapp.azure.com/nexus/repository/maven-releases/</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement> -->
 
 </project>
